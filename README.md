@@ -56,3 +56,6 @@ def transition_function(predictions, current_fsm_state, current_pose, cost_funct
     return best_next_state
 
 ```
+### Cost Function Defined
+
+![image](https://user-images.githubusercontent.com/37708330/53994408-8b22e180-4132-11e9-8a6a-267e1094d312.png)
