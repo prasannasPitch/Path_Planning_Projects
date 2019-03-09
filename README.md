@@ -71,3 +71,8 @@ def transition_function(predictions, current_fsm_state, current_pose, cost_funct
 ### Cost Function Defined
 
 ![image](https://user-images.githubusercontent.com/37708330/53994408-8b22e180-4132-11e9-8a6a-267e1094d312.png)
+
+### Cost Function Priorities for Specific Scenarios:
+
+![image](https://user-images.githubusercontent.com/37708330/54076423-c563be80-42ab-11e9-98cd-1887956e1b35.png)
+
