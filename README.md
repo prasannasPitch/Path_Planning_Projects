@@ -76,3 +76,7 @@ def transition_function(predictions, current_fsm_state, current_pose, cost_funct
 
 ![image](https://user-images.githubusercontent.com/37708330/54076423-c563be80-42ab-11e9-98cd-1887956e1b35.png)
 
+
+### Motion Planning Algorithms
+![image](https://user-images.githubusercontent.com/37708330/54482564-cebdcf80-4845-11e9-93ff-8df0a8787813.png)
+
