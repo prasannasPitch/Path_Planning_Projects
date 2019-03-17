@@ -80,3 +80,7 @@ def transition_function(predictions, current_fsm_state, current_pose, cost_funct
 ### Motion Planning Algorithms
 ![image](https://user-images.githubusercontent.com/37708330/54482564-cebdcf80-4845-11e9-93ff-8df0a8787813.png)
 
+### Major Difference between A* and Hybrid A*
+![image](https://user-images.githubusercontent.com/37708330/54488032-30f5ef00-489d-11e9-81c7-1ac631e596e4.png)
+
+
