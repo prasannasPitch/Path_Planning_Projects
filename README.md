@@ -83,4 +83,29 @@ def transition_function(predictions, current_fsm_state, current_pose, cost_funct
 ### Major Difference between A* and Hybrid A*
 ![image](https://user-images.githubusercontent.com/37708330/54488032-30f5ef00-489d-11e9-81c7-1ac631e596e4.png)
 
+### Code Snippet for Polynomial Solver:
+```
+ MatrixXd A = MatrixXd(3, 3);
+  A << T*T*T, T*T*T*T, T*T*T*T*T,
+       3*T*T, 4*T*T*T,5*T*T*T*T,
+       6*T, 12*T*T, 20*T*T*T;
+    
+  MatrixXd B = MatrixXd(3,1);     
+  B << end[0]-(start[0]+start[1]*T+.5*start[2]*T*T),
+       end[1]-(start[1]+start[2]*T),
+       end[2]-start[2];
+          
+  MatrixXd Ai = A.inverse();
+  
+  MatrixXd C = Ai*B;
+  
+  vector <double> result = {start[0], start[1], .5*start[2]};
+
+  for(int i = 0; i < C.size(); ++i) {
+    result.push_back(C.data()[i]);
+  }
+
+  return result;
+```
+
 
