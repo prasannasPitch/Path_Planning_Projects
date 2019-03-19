@@ -108,4 +108,8 @@ def transition_function(predictions, current_fsm_state, current_pose, cost_funct
   return result;
 ```
 
+### Factors Determining the Cost Function
+
+![image](https://user-images.githubusercontent.com/37708330/54646995-2d32ba00-4aa1-11e9-85ed-891061d6932a.png)
+
 
